@@ -6,5 +6,8 @@
 
 void draw_field(char (*field)[COLS]);
 int set_config(char (*field)[COLS]);
+void new_gen(char *field[COLS], char *nfield[COLS]);
+int is_end(char *field[COLS], char *nfield[COLS]);
+void copy(char *field[COLS], char *nfield[COLS]);
 
 #endif
