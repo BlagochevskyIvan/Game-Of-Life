@@ -22,3 +22,5 @@ int set_config(char (*field)[COLS]) {
     if (flag == 0) printf("n/a");
     return flag;
 }
+
+// функция подсчёта клеток вокруг
