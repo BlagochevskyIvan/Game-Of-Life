@@ -12,11 +12,11 @@ int main (){
         return 0;
     }
     draw_field(field);
-    new_gen(field, nfield);
-    while (!is_end(field, nfield)) {
-        // копируем новое поле в старое
-        draw_field(field);
-        new_gen(field, nfield);
-    }
+    // new_gen(field, nfield);
+    // while (!is_end(field, nfield)) {
+    //     // копируем новое поле в старое
+    //     draw_field(field);
+    //     new_gen(field, nfield);
+    // }
     return 0;
 }
