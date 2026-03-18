@@ -4,8 +4,8 @@ TARGET = program
 
 all: $(TARGET)
 
-$(TARGET): game_of_life.c
-	$(CC) game_of_life.c draw_field.c config.c -o $(TARGET)
+$(TARGET): main.c
+	$(CC) main.c draw_field.c config.c process.c control.c -o $(TARGET) -lncurses
 
 run1: $(TARGET)
 	./$(TARGET) < test1.txt
