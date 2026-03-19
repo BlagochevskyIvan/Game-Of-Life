@@ -6,11 +6,11 @@
 
 void draw_field(char (*field)[COL], int iter, int delay);
 int set_config(char (*field)[COL]);
-void new_gen(char (*field)[COL], char (*nfield)[COL], int *iter);
+void new_gen(char (*field)[COL], char (*nfield)[COL], int* iter);
 int is_end(char (*field)[COL], char (*nfield)[COL]);
 void copy(char (*field)[COL], char (*nfield)[COL]);
 int countneightbours(char (*field)[COL], int i, int j);
 void draw_end_field(char (*field)[COL], int iter);
-void control (int ch, int *delay, int *run);
+void control(int ch, int* delay, int* run);
 
 #endif
